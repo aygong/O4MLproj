@@ -49,9 +49,9 @@ set(H,'Interpreter','latex','FontSize',12,'location','northoutside','Orientation
 
 % Label the x-axis and y-axis
 Tx = xlabel('The sparsity level, $$\bar{\kappa}$$ (\%)','FontSize',14);
-set(Tx, 'Interpreter','latex');
+set(Tx,'Interpreter','latex');
 Ty = ylabel('The ratio','FontSize',14);
-set(Ty, 'Interpreter','latex');
+set(Ty,'Interpreter','latex');
 
 % Specify y-axis tick labels
 yticks([0 0.5 1 1.5 2 2.5 3 3.5 4])

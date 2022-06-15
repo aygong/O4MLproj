@@ -31,9 +31,9 @@ set(gca,'FontSize',12);
 
 % Label the x-axis and y-axis
 Tx = xlabel('The sparsity level, $$\bar{\kappa}$$ (\%)','FontSize',14);
-set(Tx, 'Interpreter','latex');
+set(Tx,'Interpreter','latex');
 Ty = ylabel('The test error (\%)','FontSize',14);
-set(Ty, 'Interpreter','latex');
+set(Ty,'Interpreter','latex');
 
 % Set the background
 set(gcf,'unit','normalized','position',[0.2,0.2,0.35,0.29]);
