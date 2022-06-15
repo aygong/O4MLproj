@@ -1,4 +1,4 @@
-This directory contains the Kuzushiji-MNIST dataset, which consists of a training set of 60000 images and a test set of 10000 images.
+This folder contains the Kuzushiji-MNIST dataset, which consists of a training set of 60000 images and a test set of 10000 images.
 
 The dataset can be downloaded here: https://github.com/rois-codh/kmnist.
 

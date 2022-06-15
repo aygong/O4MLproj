@@ -1,4 +1,4 @@
-This directory contains the MNIST dataset, which consists of a training set of 60000 images and a test set of 10000 images.
+This folder contains the MNIST dataset, which consists of a training set of 60000 images and a test set of 10000 images.
 
 The dataset can be downloaded here: http://yann.lecun.com/exdb/mnist/.
 
