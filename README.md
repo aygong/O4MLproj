@@ -20,11 +20,11 @@ This project focuses on a network pruning algorithm proposed on ICLR 2019, namel
 You can reproduce our best prediction by two ways, using either [Google Colab Pro](https://colab.research.google.com/signup) or your local system.
 
 - Reproduce our result on Google Colab
-  - Reproduce our result on Google Colab is very easy with our provided `.ipynb`
+  - Reproduce our result on Google Colab is very easy with our provided `run.ipynb`
 
   <!-- - Google Colab Pro provides NVIDIA Tesla P100 with 25.46GB RAM. -->
 
-  - One thing to note is that our codes requires Tensorflow 1.14.0, which has some compatibility issue with today's Colab. CUDA and some other dependencies need to be reinstalled accordingly to reproduce the result using GPU. Therefore, it is recommended to reproduce our result with CPU on the Colab. The training time is not intolerably long but the setup process is much simpler.
+  - One thing to note is that our codes requires Tensorflow 1.14.0, which has some compatibility issue with today's Colab. Be sure to run `%tensorflow_version 1.x` at the beginning of the Colab notebook to setup the environment correctly.
 
 - Reproduce our result on your local system.
   - To reproduce our result, you should install the following packages:
@@ -38,7 +38,7 @@ You can reproduce our experiments in two ways, using either [Google Colab](https
 
 - Reproduce our experiments in Google Colab Pro.
   - First, `git clone` our repo to your local machine and then update the entire folder to your Google Drive. Make sure the structure of the directory is the same as the **Folder Structure** section.
-  - Second, click `Change runtime type` under the menu `Runtime`, and select `GPU` as `Hardware accelerator` (after reinstalling CUDA that works with Tensorflow 1.14.0) and `High-RAM` as `Runtime shape`.
+  - Second, click `Change runtime type` under the menu `Runtime`, and select `GPU` as `Hardware accelerator` and `High-RAM` as `Runtime shape`.
   - Then, you can just run the provided Jupyter notebooks `run.ipynb` under the root directory with `Run all`.
 
 - Reproduce our experiments on your local machine.
