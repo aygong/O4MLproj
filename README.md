@@ -10,7 +10,7 @@
 
 - Aoyu Gong (aoyu.gong@epfl.ch)
 - Sijia Du (sijia.du@epfl.ch)
-- Qiyuan Dong(qiyuan.dong@epfl.ch)
+- Qiyuan Dong (qiyuan.dong@epfl.ch)
 
 
 
