@@ -133,7 +133,6 @@ You can reproduce our experiments in two ways, using either [Google Colab Pro](h
     ├── t10k-labels-idx1-ubyte.gz
     ├── train-images-idx3-ubyte.gz
     └── train-labels-idx1-ubyte.gz
-
 ```
 
 
