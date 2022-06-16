@@ -3,6 +3,7 @@ import pickle
 import numpy as np
 
 def read_data(path_dataset, is_sample=False, sample_class=0):
+    '''read data and store into train and test datasets'''
     # train batch
     train_batch = {}
     for i in range(5):

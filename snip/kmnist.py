@@ -4,6 +4,7 @@ import numpy as np
 
 
 def _read32(bytestream):
+    '''read bytestream with unit32 type.'''
     dt = np.dtype(np.uint32).newbyteorder(">")
     return np.frombuffer(bytestream.read(4), dtype=dt)[0]
 
@@ -43,6 +44,7 @@ def extract_labels(filename, one_hot=False):
         return labels
 
 def read_data(path_dataset, one_hot=False, is_sample=False, sample_class=0):
+    '''read data and store into train and test datasets'''
     TRAIN_IMAGES = "train-images-idx3-ubyte.gz"
     TRAIN_LABELS = "train-labels-idx1-ubyte.gz"
     TEST_IMAGES = "t10k-images-idx3-ubyte.gz"
