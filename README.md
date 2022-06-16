@@ -6,6 +6,7 @@
 </div>
 </div
 
+
 ## Group Members
 
 - Aoyu Gong (aoyu.gong@epfl.ch)
@@ -145,6 +146,6 @@ The algorithm of SNIP is presented in [our report](./report.pdf) and [the origin
 The following network architectures are used for evaluating.
 
 - resnet-18, resnet-34: [Deep Residual Learning for Image Recognition](https://openaccess.thecvf.com/content_cvpr_2016/papers/He_Deep_Residual_Learning_CVPR_2016_paper.pdf)
-- squeezenet-vanilla, squeezenet-bypass: [SqueezeNet: AlexNet-level accuracy with 50x fewer parameters and < 0.5 MB model size](https://arxiv.org/abs/1602.07360)
+- squeezenet-vanilla, squeezenet-bypass: [SqueezeNet: AlexNet-level accuracy with 50x fewer parameters and < 0.5 MB model size](https://arxiv.org/pdf/1602.07360.pdf)
 - googlenet: [Going Deeper with Convolutions](https://www.cv-foundation.org/openaccess/content_cvpr_2015/papers/Szegedy_Going_Deeper_With_2015_CVPR_paper.pdf)
 - densenet-121, densenet-169, densenet-201, densenet-264: [Densely Connected Convolutional Networks](https://openaccess.thecvf.com/content_cvpr_2017/papers/Huang_Densely_Connected_Convolutional_CVPR_2017_paper.pdf)
