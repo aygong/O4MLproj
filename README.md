@@ -6,8 +6,6 @@
 </div>
 </div>
 
-
-
 ## Group Members
 
 - Aoyu Gong (aoyu.gong@epfl.ch)
