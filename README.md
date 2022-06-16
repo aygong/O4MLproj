@@ -2,7 +2,7 @@
 
 <div align="center">
 <p>
-<img src="plots/mnist.png" width="300"/> <img src="plots/kmnist.png" width="300"/> 
+<img src="plots/mnist.png" width="300"/> &nbsp;&nbsp;&nbsp;&nbsp; <img src="plots/kmnist.png" width="300"/> 
 </p>
 <div>
 <a href="https://colab.research.google.com/drive/14aRBOVrymdUs_XVt5ixkdqOBnwOQUGqs?usp=sharing"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"></a>
