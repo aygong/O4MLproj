@@ -33,7 +33,7 @@ You can reproduce our results by two ways, using either [Google Colab Pro](https
 - Reproduce our results on Colab.
   - Colab contains most of needed packages, and is easy and highly recommended for reproducing our results.
 
-  - Note that our codes requires `tensorflow-gpu 1.14.0`, which is not pre-installed in today's Colab. Be sure to run
+  - Note that our codes requires `tensorflow-gpu 1.14.0`, which is not pre-installed in Colab. Be sure to run
 
     ```bash
     # Install required packages
