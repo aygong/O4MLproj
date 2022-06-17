@@ -45,7 +45,7 @@ You can reproduce our results by two ways, using either [Google Colab Pro](https
   
     at the beginning of the Colab notebook `run.ipynb` to setup the environment correctly.
   
-- Reproduce our result on your local system.
+- Reproduce our results on your local system.
   - To reproduce our results, you should install the following packages.
     - gast 0.2.2
     - matplotlib 3.3.4
